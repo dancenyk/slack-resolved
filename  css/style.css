@@ -60,6 +60,7 @@ table {
 	display: flex;
 	justify-content: center;
     background-color: #4a154b;
+	height: 100vh;
 }
 
 .content{
@@ -138,4 +139,45 @@ table {
 	content: url("https://a.slack-edge.com/6c404/marketing/img/homepage/bold-existing-users/waving-hand.gif");
 }
 
+.box{
+	background-color: white;
+	border-radius: 5px; 
+}
+
+.row{
+	display: flex;  
+	justify-content: space-between;
+	gap: 10px;
+	padding: 20px;
+	border-bottom: 1px solid #564e4e;
+	font-weight: 400;
+
+}
+
+.row:first-child{
+	background-color: #ecdeec;
+	font-weight: 400;
+
+}
+.contentInfo{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.title{
+	font-weight: 700;
+}
+
+.members{
+	display: flex;
+	color: #564e4e;
+}
+.membersImg{
+	display: flex;
+	gap: 3px;
+}
+
+.membersImg img{
+	width: 30px;
+}
 
